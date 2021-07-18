@@ -2,7 +2,7 @@
 
 - It is an unofficial version of Redis for Windows (latest is 6.2.4)
 - We unofficially support the 64-bit version only. Although you can build the 32-bit version from source if desired.
-- You can find the release of **Redis 6.2.4 for Windows** on [releases page](https://github.com/zkteco_india/redis/releases). Please test it and [report any issues](https://github.com/zkteco_india/redis/wiki/Submitting-an-Issue), thanks in advance!
+- You can find the release of **Redis 6.2.4 for Windows** on [releases page](https://github.com/zkteco-india/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
 
 
 ## DISCLAIMER
