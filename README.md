@@ -11,7 +11,7 @@ This release is based on [Redis](https://github.com/redis/redis). It has passed 
 
 Therefore, before considering using this release in production, make sure to test it thoroughly in your own test environment.
 
-Due to the many functional differences between windows and liunx,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios. This release SHOULD NOT be used in production.
+Due to the many functional differences between windows and linux,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios. This release SHOULD NOT be used in production.
 If you download and install it, you accept the following agreement by default：
 
 NO LIABILITY FOR DAMAGES.
@@ -34,10 +34,10 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 ## Windows-specific changes
 
-Default port is 6388
-save ""
+- Default port is 6388
+- Default save ""
 
-if you want to modify parameters,it is recommanded you edit the local.conf file
+- if you want to modify parameters,it is recommanded you edit the local.conf file
 
 
 ## Running Redis as a Service
@@ -101,7 +101,6 @@ This optional argument may be used with any of the preceding commands to set the
 The following would install and start three separate instances of Redis as a service:
 
 redis-server --service-install --service-name redisService1 redis.conf
-
 redis-server --service-start --service-name redisService1
 
 The following would stop and uninstall three separate instances of Redis as a service:
