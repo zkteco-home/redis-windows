@@ -11,10 +11,11 @@ This release is based on [Redis](https://github.com/redis/redis). It has passed 
 
 Therefore, before considering using this release in production, make sure to test it thoroughly in your own test environment.
 
-Due to the many functional differences between windows and linux,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios. This release SHOULD NOT be used in production.
+Due to the many functional differences between windows and linux,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios.
 If you download and install it, you accept the following agreement by default：
 
-NO LIABILITY FOR DAMAGES.
+NO LIABILITY FOR DAMAGES
+-------------------------
 In no event shall the author of this Software be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if the Author of this Software has been advised of the possibility of such damages.
 
 
@@ -34,17 +35,33 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 ## Windows-specific changes
 
-- Default port is 6388
-- Default save ""
+- Default configrations
+
+	save ""
+	maxmemory 512mb
+	appendonly no
+	maxmemory-policy allkeys-lru
 
 - if you want to modify parameters,it is recommanded you edit the local.conf file
 
 
 ## Running Redis as a Service
 
-Run install_redis.cmd as Administrator
+-   Self elevation of the Redis executable so that service commands would work from a non-elevated command prompt.
+
+-   Service naming so that multiple instances of the Redis service could be installed on one machine.
+
+-   Automatically adjusting folder permissions so that when Redis is run under the NETWORK SERVICE account it could modify the files in the installation directory.
+
+
+
+- Run install_redis.cmd as Administrator
 
 you also can use the following command and manage redis service:
+----------------------------------------------------------------
+
+Installing the Service
+------------------------
 
 *--service-install*
 
