@@ -15,7 +15,7 @@ Due to the many functional differences between windows and linux,There are still
 If you download and install it, you accept the following agreement by default：
 
 NO LIABILITY FOR DAMAGES
--------------------------
+
 In no event shall the author of this Software be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if the Author of this Software has been advised of the possibility of such damages.
 
 
@@ -38,8 +38,11 @@ In no event shall the author of this Software be liable for any damages whatsoev
 - Default configrations
 
 	save ""
+	
 	maxmemory 512mb
+	
 	appendonly no
+	
 	maxmemory-policy allkeys-lru
 
 - if you want to modify parameters,it is recommanded you edit the local.conf file
