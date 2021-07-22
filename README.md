@@ -58,7 +58,7 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 
 
-Run install_redis.cmd as Administrator
+Run install_redis.cmd as Administrator  (recommanded)
 
 you also can use the following command and manage redis service:
 
@@ -74,7 +74,7 @@ This command does not start the service.
 
 For instance:
 
-redis-server --service-install redis.windows.conf --loglevel verbose
+redis-server --service-install redis.conf --loglevel verbose
 
 Uninstalling the Service
 ------------------------
