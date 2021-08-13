@@ -45,7 +45,7 @@ In no event shall the author of this Software be liable for any damages whatsoev
 	
 	maxmemory-policy allkeys-lru
 
-- if you want to modify parameters,it is recommanded you edit the local.conf file
+- if you want to modify parameters,it is recommanded you edit the redis.conf file
 
 
 ## Running Redis as a Service
