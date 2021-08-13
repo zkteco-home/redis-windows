@@ -29,9 +29,10 @@ In no event shall the author of this Software be liable for any damages whatsoev
 - Windows Vista x64
 - Windows Server 2008 x64
 - Windows Server 2012 x64
-- Windows Server 2016 x64  
+- Windows Server 2016/2019 x64  
 - Windows 7 x64
-- Windows 10 x64
+- Windows 10/11 x64
+
 
 ## Windows-specific changes
 
