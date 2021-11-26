@@ -1,15 +1,12 @@
 # Redis 6.2.6 for Windows
 
-- It is an unofficial version of Redis for Windows
-- We unofficially support the 64-bit version only. Although you can build the 32-bit version from source if desired.
+- It is an unofficial version of Redis for Windows X64 system
 - You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-india/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
 
 
 ## DISCLAIMER
 
-This release is based on [Redis](https://github.com/redis/redis). It has passed all the standard tests but it hasn't been tested in a production environment.
-
-Therefore, before considering using this release in production, make sure to test it thoroughly in your own test environment.
+This release is based on [Redis](https://github.com/redis/redis). It has passed all the standard tests.
 
 Due to the many functional differences between windows and linux,There are still unknown issues/bugs, in particular there is a bug to work properly in certain scenarios.
 If you download and install it, you accept the following agreement by default：
