@@ -1,8 +1,16 @@
+#Redis 7.0 is coming soon...
+
 # Redis 6.2.6 for Windows
 
 - It is an unofficial version of Redis for Windows X64 system
 - You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-india/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
 
+If you want to know more, this is a list of selected starting points:
+
+Introduction to Redis data types. https://redis.io/topics/data-types-intro
+Try Redis directly inside your browser. https://try.redis.io
+The full list of Redis commands. https://redis.io/commands
+There is much more inside the official Redis documentation. https://redis.io/documentation
 
 ## DISCLAIMER
 
