@@ -1,4 +1,4 @@
-# Redis 7.0 preview released on Sunday(Feb 13,2022）,fater and more stable
+# Redis 7.0 preview released on Sunday(Feb 13,2022）,faster and more stable
 
 # Redis 6.2.6 for Windows
 
