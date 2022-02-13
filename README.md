@@ -1,11 +1,13 @@
-# Redis 7.0 preview released on Sunday(Feb 13,2022）,faster and more stable
+# Redis 7.0 RC1 released
 
-# Redis 6.2.6 for Windows
+# Redis 7.0 for Windows
 
 - It is an unofficial version of Redis for Windows X64 system
-- You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-india/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
+- You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
 
 If you want to know more, this is a list of selected starting points:
+
+Redis 7.0 release Notes . https://github.com/redis/redis/releases/tag/7.0-rc1
 
 Introduction to Redis data types. https://redis.io/topics/data-types-intro
 
