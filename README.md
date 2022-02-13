@@ -2,6 +2,8 @@
 
 # Redis 7.0 for Windows
 
+ automatically migrated an old-style AOF file (appendonly.aof) into the AOF directory (appendonlydir)
+
 - It is an unofficial version of Redis for Windows X64 system
 - You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
 
