@@ -1,8 +1,27 @@
-# Redis 7.0 RC1 released
+## Redis 7.0  released
 
 # Redis 7.0 for Windows
 
- automatically migrated an old-style AOF file (appendonly.aof) into the AOF directory (appendonlydir)
+Redis 7.0 includes several new user-facing features, significant performance
+optimizations, and many other improvements. It also includes changes that
+potentially break backwards compatibility with older versions. We urge users to
+review the release notes carefully before upgrading.
+
+In particular, users should be aware of the following changes:
+
+1. Redis 7 stores AOF as multiple files in a folder; see Multi-Part AOF below.
+	(automatically migrated an old-style AOF file (appendonly.aof) into the AOF directory (appendonlydir))
+	
+2. Redis 7 uses a new version 10 format for RDB files, which is incompatible
+	with older versions.
+
+3. Redis 7 converts ziplist encoded keys to listpacks on the fly when loading
+	an older RDB format. Conversion applies to loading a file from disk or
+	replicating from a Redis master and will slightly increase loading time.
+
+Here is a comprehensive list of changes in this release compared to 6.2.6.
+https://github.com/redis/redis/releases/tag/7.0-rc1
+
 
 - It is an unofficial version of Redis for Windows X64 system
 - You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
