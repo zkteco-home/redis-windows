@@ -65,13 +65,11 @@ In no event shall the author of this Software be liable for any damages whatsoev
 - Windows 10/11 x64
 
 
-## Windows-specific changes
-
-- Default configrations
+## Default configrations
 
 	save ""
 	
-	maxmemory 512mb
+	maxmemory 256mb
 	
 	appendonly no
 	
