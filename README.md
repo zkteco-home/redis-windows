@@ -1,6 +1,6 @@
 ## Redis 7.0  released
 
-# Redis 7.0 for Windows
+# Redis 7.0 for Windows(https://github.com/zkteco-home/redis-windows)
 
 Redis 7.0 includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
@@ -24,7 +24,7 @@ https://github.com/redis/redis/releases/tag/7.0-rc1
 
 
 - It is an unofficial version of Redis for Windows X64 system
-- You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-india/redis/wiki/Submitting-an-Issue), thanks in advance!
+- You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-home/redis-windows/wiki/Submitting-an-Issue), thanks in advance!
 
 If you want to know more, this is a list of selected starting points:
 
@@ -52,7 +52,8 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 ## Building from source code on Windows
 
-  - Redis binaries are built with the original source [Redis](https://github.com/redis/redis) and have been compiled with free Visual Studio 2019 (VC16,Community Edition, version 16.2.5) to obtain higher performance and better stability than the binaries built by MSYS
+  - Redis binaries are built with the original source [Redis](https://github.com/redis/redis) and have been compiled with Visual Studio 2022 to obtain higher performance and better stability than the binaries built by MSYS
+
   - Redis can be installed as a Windows Service.
   
 ## Supported Windows Versions
@@ -157,5 +158,7 @@ The following would stop and uninstall three separate instances of Redis as a se
 
 redis-server --service-stop --service-name redisService1
 redis-server --service-uninstall --service-name redisService1
+
+
 
   
