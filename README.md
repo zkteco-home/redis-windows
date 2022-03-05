@@ -1,5 +1,3 @@
-## Redis 7.0  released
-
 # Redis 7.0 for Windows,Official website:
 https://github.com/zkteco-home/redis-windows
 
