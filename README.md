@@ -1,4 +1,4 @@
-# Redis 7.0 for Windows,Official website:
+# Redis for Windows(unofficial version of Redis):
 https://github.com/zkteco-home/redis-windows
 
 Redis 7.0 includes several new user-facing features, significant performance
