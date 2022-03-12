@@ -5,4 +5,3 @@ sc description redis "Redis Cache Service"
 net start redis
 
 
-
