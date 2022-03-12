@@ -11,7 +11,7 @@ If you want to get latest version or [report any issues],please contact [michael
 
 3. We can collect all the issues, because you don't have the source code, to avoid changing the source code by yourself and not being able to share
 
-4. according to Redis BSD-3,it is legal
+4. according to Redis BSD-3,it is legal,it's still free
 
 It includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
