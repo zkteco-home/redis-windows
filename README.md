@@ -1,20 +1,29 @@
-# Redis for Windows(unofficial version of Redis):
-https://github.com/zkteco-home/redis-windows
+# It is an unofficial version of Redis for Windows X64 system[zkteco-home](https://github.com/zkteco-home/redis-windows)
 
-Redis 7.0 includes several new user-facing features, significant performance
+
+If you want to get latest version or [report any issues],please contact [michael](michael.wang.zkteco@gmail.com), thanks in advance!
+
+## Why not open source code?
+
+1. It is very complicated to work on the windows edition
+2. We have a professional team to maintain its stable operation
+3. We can collect all the issues, because you don't have the source code, to avoid changing the source code by yourself and not being able to share
+4. according to Redis BSD-3,it is legal
+
+It includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
 potentially break backwards compatibility with older versions. We urge users to
 review the release notes carefully before upgrading.
 
 In particular, users should be aware of the following changes:
 
-1. Redis 7 stores AOF as multiple files in a folder; see Multi-Part AOF below.
+1. It stores AOF as multiple files in a folder; see Multi-Part AOF below.
 	(automatically migrated an old-style AOF file (appendonly.aof) into the AOF directory (appendonlydir))
 	
-2. Redis 7 uses a new version 10 format for RDB files, which is incompatible
+2. It uses a new version 10 format for RDB files, which is incompatible
 	with older versions.
 
-3. Redis 7 converts ziplist encoded keys to listpacks on the fly when loading
+3. It converts ziplist encoded keys to listpacks on the fly when loading
 	an older RDB format. Conversion applies to loading a file from disk or
 	replicating from a Redis master and will slightly increase loading time.
 
@@ -22,8 +31,6 @@ Here is a comprehensive list of changes in this release compared to 6.2.6.
 https://github.com/redis/redis/releases/tag/7.0-rc1
 
 
-- It is an unofficial version of Redis for Windows X64 system
-- You can find the release of **Redis for Windows** on [releases page](https://github.com/zkteco-home/redis/releases). Please test it and [report any issues](https://github.com/zkteco-home/redis-windows/wiki/Submitting-an-Issue), thanks in advance!
 
 If you want to know more, this is a list of selected starting points:
 
