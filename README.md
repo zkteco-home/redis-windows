@@ -161,11 +161,13 @@ This optional argument may be used with any of the preceding commands to set the
 The following would install and start three separate instances of Redis as a service:
 
 redis-server --service-install --service-name redisService1 redis.conf
+
 redis-server --service-start --service-name redisService1
 
 The following would stop and uninstall three separate instances of Redis as a service:
 
 redis-server --service-stop --service-name redisService1
+
 redis-server --service-uninstall --service-name redisService1
 
 
