@@ -1,4 +1,6 @@
-# It is an unofficial version of Redis for Windows X64 system [zkteco-home](https://github.com/zkteco-home/redis-windows)
+# Nginx for windows service is coming soon...
+
+# This is an unofficial version of Redis for Windows X64 system [zkteco-home](https://github.com/zkteco-home/redis-windows)
 
 
 If you want to get latest version or [report any issues],please contact [michael](michael.wang.zkteco@gmail.com), thanks in advance!
