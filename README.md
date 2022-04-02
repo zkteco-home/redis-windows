@@ -1,4 +1,3 @@
-# Nginx for windows service is coming soon...
 
 # This is an unofficial version of Redis for Windows X64 system [zkteco-home](https://github.com/zkteco-home/redis-windows)
 
