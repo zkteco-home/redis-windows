@@ -2,7 +2,7 @@
 # This is an unofficial version of Redis for Windows X64 system [zkteco-home](https://github.com/zkteco-home/redis-windows)
 
 
-If you want to get latest version or [report any issues],please contact [michael](michael.wang.zkteco@gmail.com), thanks in advance!
+If you want to get latest version or [report any issues],please contact [michael](michael_zkteco@126.com), thanks in advance!
 
 ## Why not open source code?
 
@@ -12,7 +12,7 @@ If you want to get latest version or [report any issues],please contact [michael
 
 3. We can collect all the issues, because you don't have the source code, to avoid changing the source code by yourself and not being able to share
 
-4. according to Redis BSD-3,it is legal,it's still free
+4. according to Redis BSD-3,it is legal
 
 It includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
@@ -171,6 +171,15 @@ redis-server --service-stop --service-name redisService1
 
 redis-server --service-uninstall --service-name redisService1
 
+
+Sentinel for Redis Server on Windows
+------------------------------------
+ 
+
+After you have edited and created the necessary configuration files,you must open the necessary firewall port. you can install Redis Sentinel from the command prompt as follows:
+
+
+redis-server --service-install --service-name Sentinel sentinel.conf --sentinel
 
 
   
