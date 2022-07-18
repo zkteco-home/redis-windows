@@ -1,5 +1,5 @@
 
-# This is an unofficial version of Redis for Windows X64 system [zkteco-home](https://github.com/zkteco-home/redis-windows)
+# This is an unofficial version of Redis for Windows X64 system<!-- [zkteco-home](https://github.com/zkteco-home/redis-windows)-->
 
 
 If you want to get latest version or [report any issues],please contact [michael](michael_zkteco@126.com), thanks in advance!
