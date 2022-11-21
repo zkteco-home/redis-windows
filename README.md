@@ -66,12 +66,9 @@ In no event shall the author of this Software be liable for any damages whatsoev
   
 ## Supported Windows Versions
 
-- Windows Vista x64
-- Windows Server 2008 x64
-- Windows Server 2012 x64
-- Windows Server 2016/2019 x64  
-- Windows 7 x64
-- Windows 10/11 x64
+- Windows Server 2008/2012/2016/2019/2022 x64  
+- Windows 7/10/11 x64
+
 
 
 ## Default configrations
@@ -90,7 +87,7 @@ In no event shall the author of this Software be liable for any damages whatsoev
 	enable-module-command yes
 	loadmodule rejson.dll
 
-	download:
+	ReJson.dll download:
 	https://github.com/zkteco-home/RedisJson
 
 ## Running Redis as a Service
