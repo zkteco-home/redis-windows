@@ -77,11 +77,8 @@ In no event shall the author of this Software be liable for any damages whatsoev
 ## Default configrations
 
 	save ""
-	
 	maxmemory 256mb
-	
 	appendonly no
-	
 	maxmemory-policy allkeys-lru
 
 - if you want to modify parameters,it is recommanded you edit the redis.conf file
@@ -91,7 +88,6 @@ In no event shall the author of this Software be liable for any damages whatsoev
 	edit redis.conf and add the following parameters:
 	
 	enable-module-command yes
-	
 	loadmodule rejson.dll
 
 	download:
