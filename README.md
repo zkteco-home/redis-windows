@@ -86,6 +86,16 @@ In no event shall the author of this Software be liable for any damages whatsoev
 
 - if you want to modify parameters,it is recommanded you edit the redis.conf file
 
+## Support latest RedisJson 
+
+	edit redis.conf and add the following parameters:
+	
+	enable-module-command yes
+	
+	loadmodule rejson.dll
+
+	download:
+	https://github.com/zkteco-home/RedisJson
 
 ## Running Redis as a Service
 
