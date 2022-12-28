@@ -4,13 +4,6 @@
 
 If you want to get latest version or [report any issues],please contact [michael](michael_zkteco@126.com), thanks in advance!
 
-## Why not open source code?
-
-1. It is very complicated to work on the windows edition, We have a professional team to maintain its stable operation
-
-2. We can collect all the issues, because you don't have the source code, to avoid changing the source code by yourself and not being able to share
-
-3. according to Redis BSD-3,it is legal
 
 It includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
