@@ -3,7 +3,7 @@
 
 ## Warning: 
 
-# If you don't like it and don't use it, otherwise it will be regarded as illegal use.
+# If you don't like it(click star) and don't use it, otherwise it will be regarded as illegal use.
 
 
 If you want to get latest version or [report any issues],please contact (michael_zkteco@126.com), thanks in advance!
