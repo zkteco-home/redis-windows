@@ -179,5 +179,9 @@ After you have edited and created the necessary configuration files,you must ope
 
 redis-server --service-install --service-name Sentinel sentinel.conf --sentinel
 
+##Contribute
+
+![fab9f5c7a457dc4126c2484635a68dc](https://user-images.githubusercontent.com/66519168/232685382-235cc2ad-2aab-4213-897a-f5c52d93dd7d.jpg)
+
 
   
