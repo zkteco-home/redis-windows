@@ -181,7 +181,7 @@ redis-server --service-install --service-name Sentinel sentinel.conf --sentinel
 
 ## Contribute
 
-![wechat](https://user-images.githubusercontent.com/66519168/232771930-8e779f43-9d27-43c5-8126-84b0975c4952.jpg)
+
 
 
   
