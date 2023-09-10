@@ -4,7 +4,6 @@
 ## Warning: 
 
 # it will be regarded as illegal use If you don't like(click star).
-# 7.2.0 will be released once star reach 1K.
 
 If you want to get latest version or [report any issues],please contact (michael_zkteco@126.com), thanks in advance!
 
