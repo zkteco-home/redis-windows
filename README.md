@@ -1,13 +1,6 @@
 
 # This is an unofficial version of Redis for Windows X64<!-- [zkteco-home](https://github.com/zkteco-home/redis-windows)-->
 
-## Warning: 
-
-# it will be regarded as illegal use If you don't like.
-
-If you want to get latest version or [report any issues],please contact (michael_zkteco@126.com), thanks in advance!
-
-
 It includes several new user-facing features, significant performance
 optimizations, and many other improvements. It also includes changes that
 potentially break backwards compatibility with older versions. We urge users to
@@ -70,7 +63,7 @@ In no event shall the author of this Software be liable for any damages whatsoev
 ## Default configrations
 
 	save ""
-	maxmemory 256mb
+	maxmemory 512mb
 	appendonly no
 	maxmemory-policy allkeys-lru
 
@@ -184,3 +177,4 @@ redis-server --service-install --service-name Sentinel sentinel.conf --sentinel
 
 
   
+
