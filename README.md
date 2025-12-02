@@ -18,14 +18,11 @@ In particular, users should be aware of the following changes:
 	an older RDB format. Conversion applies to loading a file from disk or
 	replicating from a Redis master and will slightly increase loading time.
 
-Here is a comprehensive list of changes in this release compared to 6.2.6.
-https://github.com/redis/redis/releases/tag/7.0-rc1
 
 
 
 If you want to know more, this is a list of selected starting points:
 
-Redis 7.0 release Notes . https://github.com/redis/redis/releases/tag/7.0-rc1
 
 Introduction to Redis data types. https://redis.io/topics/data-types-intro
 
@@ -177,4 +174,5 @@ redis-server --service-install --service-name Sentinel sentinel.conf --sentinel
 
 
   
+
 
